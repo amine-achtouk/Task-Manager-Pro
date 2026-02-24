@@ -1,38 +1,43 @@
-# File Tree: backend
+# File Tree: Task-Manager-API
 
-**Generated:** 2/22/2026, 9:56:52 PM
-**Root Path:** `c:\Users\GAMETECH\Desktop\Task Manager API\backend`
+**Generated:** 2/24/2026, 10:39:13 PM
+**Root Path:** `c:\Users\GAMETECH\Desktop\Task-Manager-API`
 
 ```
-├── 📁 src
-│   ├── 📁 config
-│   │   └── 📄 db.js
-│   ├── 📁 controllers
-│   │   ├── 📄 authController.js
-│   │   └── 📄 taskController.js
-│   ├── 📁 middlewares
-│   │   ├── 📄 authMiddleware.js
-│   │   └── 📄 errorHandler.js
-│   ├── 📁 models
-│   │   ├── 📄 taskModel.js
-│   │   └── 📄 userModel.js
-│   ├── 📁 repositories
-│   │   ├── 📄 taskRepository.js
-│   │   └── 📄 userRepository.js
-│   ├── 📁 routes
-│   │   ├── 📄 authRoute.js
-│   │   └── 📄 taskRoute.js
-│   ├── 📁 services
-│   │   ├── 📄 authService.js
-│   │   └── 📄 taskService.js
-│   ├── 📁 utils
-│   │   ├── 📄 AppError.js
-│   │   └── 📄 catchAsync.js
-│   ├── 📄 app.js
-│   └── 📄 server.js
-├── ⚙️ .gitignore
-├── ⚙️ package-lock.json
-└── ⚙️ package.json
+└── 📁 backend
+    ├── 📁 src
+    │   ├── 📁 config
+    │   │   └── 📄 db.js
+    │   ├── 📁 controllers
+    │   │   ├── 📄 authController.js
+    │   │   └── 📄 taskController.js
+    │   ├── 📁 middlewares
+    │   │   ├── 📄 authMiddleware.js
+    │   │   └── 📄 errorHandler.js
+    │   ├── 📁 models
+    │   │   ├── 📄 taskModel.js
+    │   │   └── 📄 userModel.js
+    │   ├── 📁 repositories
+    │   │   ├── 📄 taskRepository.js
+    │   │   └── 📄 userRepository.js
+    │   ├── 📁 routes
+    │   │   ├── 📄 authRoute.js
+    │   │   └── 📄 taskRoute.js
+    │   ├── 📁 services
+    │   │   ├── 📄 authService.js
+    │   │   └── 📄 taskService.js
+    │   ├── 📁 utils
+    │   │   ├── 📄 AppError.js
+    │   │   ├── 📄 catchAsync.js
+    │   │   └── 📄 jwt.js
+    │   ├── 📁 validations
+    │   │   ├── 📄 authvalidation.js
+    │   │   └── 📄 taskvalidation.js
+    │   ├── 📄 app.js
+    │   └── 📄 server.js
+    ├── ⚙️ .gitignore
+    ├── ⚙️ package-lock.json
+    └── ⚙️ package.json
 ```
 
 ---
