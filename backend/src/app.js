@@ -2,6 +2,7 @@ const express = require('express')
 const cors = require('cors')
 const cookieParser = require('cookie-parser')
 const errorHandler = require('./middlewares/errorHandler')
+const { apiLimiter } = require('./config/rateLimit')
 
 
 
@@ -16,6 +17,7 @@ app.use(cookieParser())
 const authRoute = require('./routes/authRoute')
 const taskRoute = require('./routes/taskRoute')
 
+app.use('/api', apiLimiter)
 app.use('/api/auth', authRoute)
 app.use('/api/task', taskRoute)
 
