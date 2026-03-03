@@ -8,8 +8,8 @@ const { createTaskSchema } = require('../validations/taskvalidation')
 router.use(authMiddleware)
 
 router.post('/', validation(createTaskSchema), createTask)
-router.post('/', getAllTask)
-router.post('/:id', updateTask)
-router.post('/:id', deleteTask)
+router.get('/', getAllTask)
+router.patch('/:id', updateTask)
+router.delete('/:id', deleteTask)
 
 module.exports = router
